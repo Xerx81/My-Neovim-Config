@@ -66,6 +66,16 @@ return {
                         }
                     }
                 end,
+                ["pyright"] = function()
+                    local lspconfig = require("lspconfig")
+                    lspconfig.pyright.setup {
+                        capabilities = capabilities,
+                        filetypes = {"python"},
+                        root_dir = function()
+                            return "home/yuvraj/"
+                        end
+                    }
+                end
             }
         })
 
