@@ -30,6 +30,8 @@ return {
                 "pyright",
                 "clangd",
                 "tsserver",
+                "html",
+                "cssls",
             },
             handlers = {
                 function(server_name) -- default handler (optional)
