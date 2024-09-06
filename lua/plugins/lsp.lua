@@ -28,6 +28,8 @@ return {
             ensure_installed = {
                 "lua_ls",
                 "pyright",
+                "clangd",
+                "tsserver",
             },
             handlers = {
                 function(server_name) -- default handler (optional)
@@ -75,7 +77,7 @@ return {
                             return "home/yuvraj/"
                         end
                     }
-                end
+                end,
             }
         })
 
