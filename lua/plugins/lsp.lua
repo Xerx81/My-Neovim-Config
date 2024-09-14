@@ -29,7 +29,7 @@ return {
                 "lua_ls",
                 "pyright",
                 "clangd",
-                "tsserver",
+                "ts_ls",
                 "html",
                 "cssls",
             },
