@@ -1,3 +1,3 @@
 return {
-    {'jiangmiao/auto-pairs', name='auto-pairs'}
+    'jiangmiao/auto-pairs'
 }
