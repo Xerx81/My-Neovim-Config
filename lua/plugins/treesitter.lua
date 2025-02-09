@@ -14,7 +14,8 @@ return {
             auto_install = true,
 
             indent = {
-                enable = false,
+                enable = true,
+                disable = { "javascript", "lua" }
             },
 
             highlight = {
