@@ -24,3 +24,18 @@ vim.opt.updatetime = 50
 vim.opt.colorcolumn = "100"
 
 vim.g.mapleader = " "
+
+vim.opt.clipboard = "unnamedplus"
+
+vim.g.clipboard = {
+    name = "wl-clipboard",
+    copy = {
+        ["+"] = "wl-copy",
+        ["*"] = "wl-copy --primary",
+    },
+    paste = {
+        ["+"] = "wl-paste",
+        ["*"] = "wl-paste --primary",
+    },
+    cache_enabled = 1,
+}
