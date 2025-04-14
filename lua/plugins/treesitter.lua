@@ -15,7 +15,7 @@ return {
 
             indent = {
                 enable = true,
-                disable = { "javascript", "lua" }
+                disable = { "javascript", "lua", "htmldjango" }
             },
 
             highlight = {
