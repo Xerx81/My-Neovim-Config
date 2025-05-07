@@ -27,12 +27,13 @@ return {
         require("mason-lspconfig").setup({
             ensure_installed = {
                 "ast_grep",
+                "clangd",
+                "cssls",
+                "gopls",
+                "html",
                 "lua_ls",
                 "pyright",
-                "clangd",
                 "ts_ls",
-                "html",
-                "cssls",
             },
             handlers = {
                 function(server_name) -- default handler (optional)
